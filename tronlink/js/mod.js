@@ -14,7 +14,7 @@ const launch = async () => {
     
     $('#TronWalletAddress').attr("placeholder", publicAddress);
        
-    const contract = await tronWeb.contract().at("TDMKaiRYuhFASvkzpTWRh651AxHcTmn63U");
+    const contract = await tronWeb.contract().at("TRe8kvvmLKiFKXDronavLDp9zhjsnpZ6We");
 
     //const abi = contract.abi;
     async function PurchaseCBD() {
