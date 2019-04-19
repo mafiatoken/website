@@ -101,7 +101,7 @@ $('#trxnum').on('input', function() {
     }
     else {    
     	var newnumber = parseInt(tokenval.toString().replace(".", ""), 10);
-    	tokencalc = newnumber * 100;
+    	tokencalc = newnumber * 50;
     	tokenamt = tokencalc + " Mafia"; 
         //$('#trxvalue').text(tokencalc);
         $(this).val(newnumber);
